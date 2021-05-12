@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block message %}
+{% with messages = get_flashed_messages(with_categories=true) %}
+
+{% if messages %}
+    <p>{{messages[0][1]}}</p>
+{% endif %}
+{% endwith %}
+{% endblock message %}
+
+{% block contents %}
+<form action="{{url_for('write_done')}}" method="get">
+    <input type="text" value="제목을 입력해주세요" name="title" id="title" required>
+    <input type="text" value="본문을 입력해 주세요" name="contents" id="contents" required>
+    <button type="submit">작성하기</button>
+</form>
+
+{% endblock contents %}

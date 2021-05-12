@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLASK_WORLD</title>
+    <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet">
+</head>
+
+<body>
+    {% block message %}
+      
+    {% endblock message %}
+    <header>
+        <a href="{{url_for('index')}}"><p>FLASK_WORLD</p></a>
+        {% block user %}
+
+        {% endblock user %}
+    </header>
+    {% block contents %}
+
+    {% endblock contents %}
+    <footer>
+
+    </footer>
+</body>
+
+</html>

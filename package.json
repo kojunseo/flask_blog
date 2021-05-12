@@ -1,0 +1,29 @@
+{
+  "name": "flask_firebase_blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css":"gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KorKite/flask_firebase_blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KorKite/flask_firebase_blog/issues"
+  },
+  "homepage": "https://github.com/KorKite/flask_firebase_blog#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "gulp": "^4.0.2",
+    "gulp-csso": "^4.0.1",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sass": "^4.1.0",
+    "postcss": "^8.2.15",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.1.2"
+  }
+}
