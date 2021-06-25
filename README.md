@@ -6,4 +6,4 @@
     
     
     아래 링크를 통해 강의에 접속하세요.
-    https://www.youtube.com/watch?v=cqxqsTd3X20&list=PLqIc89sXpwUCjwzRImFjO2UL8lBopRajj
+https://www.youtube.com/watch?v=cqxqsTd3X20&list=PLqIc89sXpwUCjwzRImFjO2UL8lBopRajj
