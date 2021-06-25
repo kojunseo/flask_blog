@@ -1,0 +1,9 @@
+{
+  "apiKey": "AIzaSyDErtS50viSp91J1uk2tZl5RyugHaljiNE",
+  "authDomain": "flask-firebase-community.firebaseapp.com",
+  "databaseURL": "https://flask-firebase-community-default-rtdb.firebaseio.com",
+  "projectId": "flask-firebase-community",
+  "storageBucket": "flask-firebase-community.appspot.com",
+  "messagingSenderId": "246119861639",
+  "appId": "1:246119861639:web:e59a16be6e1ba5366cd722"
+}

@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block message %}
+{% with messages = get_flashed_messages(with_categories=true) %}
+
+{% if messages %}
+    <p>{{messages[0][1]}}</p>
+{% endif %}
+{% endwith %}
+{% endblock message %}
+
+{% block contents %}
+<form action="{{url_for("login_done")}}" method="get">
+    <p>userid: </p>
+    <input type="text" name="id" id="id">
+    <p>password: </p>
+    <input type="password" name="pwd" id="pwd">
+
+    <button type="submit">로그인</button>
+</form>
+
+{% endblock contents %}

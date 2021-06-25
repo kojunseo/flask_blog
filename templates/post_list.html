@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block user %}
+{% endblock user %}
+
+{% block contents %}
+{% if length == 0 %}
+  <p>작성된 포스트가 없습니다.</p>
+{% else %}
+    {% for post in post_list %}
+    <a href="{{url_for('post', pid= post[0])}}">
+        <div>
+            {{post[0]}}
+            {{post[1].title}}
+        </div>
+    </a>
+    
+    
+    {% endfor %}
+{% endif %}
+{% endblock contents %}
